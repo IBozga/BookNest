@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
